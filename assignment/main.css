@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    color: red;
+  }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      text-align: center;
+      width: 35vh;
+          height: 90vh; 
+            }
+      
+    .map {
+      /* //float: left; */
+      width: 83.33%;
+      
+      height: 90vh; /* Should be removed. Only for demonstration */
+    }
+    
+    .ol-popup {
+      position: absolute;
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      border: 1px solid #cccccc;
+      bottom: 12px;
+      left: -50px;
+      width: 280px;
+    }

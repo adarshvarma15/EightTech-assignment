@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- openlayers css -->
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+
+    <!-- css -->
+
+    <!-- Openlayers JS  -->
+    <script src="https://openlayers.org/en/v4.6.5/build/ol.js" type="text/javascript"></script>
+
+  
+    <link rel="stylesheet" href="main.css">
+
+   <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+    <!-- bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <title>WFS </title>
+
+</head>
+
+<body>
+    <h1 text-align:centre>WFS layer from geoserver</h1>
+    <div class="row">
+
+
+        <div class="column" style="background-color:lavenderblush;">
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <div class="card-header"></div>
+                <div class="card-body text">
+                    <h5 class="card-title">List of Cities</h5>
+
+                    <p class="card-text" id="card-text1">
+                        <button id="Detroit" type="button" class="btn btn-primary"
+                            onclick="DresdenClicked()">Dresden</button><br><br>
+                     
+                       
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="map" id="map"> </div>
+
+        <div id="popup" class="ol-popup">
+            <div id="popup-content"></div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
